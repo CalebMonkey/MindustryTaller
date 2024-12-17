@@ -8,7 +8,15 @@ category: crafting
 
 
 itemCapacity: 30
-
+consumes: {
+  power: 4.5
+  items: {
+    items: [
+      lead/4
+      sand/6
+      graphite/1
+    ]
+  }
 
 
 outputItem: metaglass/1
