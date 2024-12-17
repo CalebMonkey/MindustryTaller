@@ -17,9 +17,9 @@ consumes: {
       graphite/1
     ]
   }
+}
 
-
-outputItem: metaglass/1
+outputItem: metaglass/10
 craftTime: 90
   
 requirements: [
@@ -34,3 +34,17 @@ ambientSoundVolume: 1
 craftEffect: {
   type: smeltsmoke
     }
+
+drawer:{
+  type: DrawMulti
+  drawers: [
+    {
+     type: DrawRegion
+     suffix: -bottom
+    }
+    {
+     type: DrawRegion
+    }
+  ]
+}
+
