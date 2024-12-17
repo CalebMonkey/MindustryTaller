@@ -1,0 +1,40 @@
+name: Metaglass Crucible
+description: a larger, better metaglass crafter that uses graphite as a catalyst
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: false
+category: crafting
+
+
+itemCapacity: 30
+
+
+
+outputItem: metaglass/1
+craftTime: 90
+  
+requirements: [
+  graphite/120
+  silicon/100
+  metaglass/80
+  plastanium/40
+]
+  
+ambientSound: smelter
+ambientSoundVolume: 1
+craftEffect: {
+  type: smeltsmoke
+    }
+drawer: {
+   type: DrawMulti
+        drawers: [
+        {
+        type: DrawFlame
+        color: ffc099
+        }
+        {
+        type: DrawDefault
+        }
+        ]
+  }
