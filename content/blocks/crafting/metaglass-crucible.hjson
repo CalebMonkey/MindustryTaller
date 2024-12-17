@@ -26,15 +26,3 @@ ambientSoundVolume: 1
 craftEffect: {
   type: smeltsmoke
     }
-drawer: {
-   type: DrawMulti
-        drawers: [
-        {
-        type: DrawFlame
-        color: ffc099
-        }
-        {
-        type: DrawDefault
-        }
-        ]
-  }
