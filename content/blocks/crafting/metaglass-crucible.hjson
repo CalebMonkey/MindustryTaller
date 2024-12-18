@@ -30,7 +30,7 @@ requirements: [
 ]
   
 ambientSound: smelter
-ambientSoundVolume: 1
+ambientSoundVolume: 0.07
 craftEffect: {
   type: smeltsmoke
     }
