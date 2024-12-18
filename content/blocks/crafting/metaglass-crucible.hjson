@@ -20,7 +20,7 @@ consumes: {
 }
 
 outputItem: metaglass/10
-craftTime: 90
+craftTime: 80
   
 requirements: [
   graphite/120
