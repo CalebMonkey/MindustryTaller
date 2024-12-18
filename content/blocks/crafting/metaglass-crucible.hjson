@@ -37,15 +37,15 @@ craftEffect: {
 
 drawer:[
     {
-
-    }
-    {
-     type: DrawRegion
-     suffix: -top
+     type: DrawDefault
     }
     {
      type: DrawFlame
      flameColor: ffc099
+    }
+    {
+     type: DrawRegion
+     suffix: -top
     }
 ]
 
