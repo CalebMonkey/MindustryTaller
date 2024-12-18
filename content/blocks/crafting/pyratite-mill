@@ -1,0 +1,41 @@
+name: Pyratite Mill
+description: A larger, better pyratite crafter that uses oil as a solvent
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: true
+category: crafting
+
+
+itemCapacity: 20
+liquidCapacity:20
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      lead/4
+      sand/6
+      coal/2
+    ]
+  }
+liquid:{
+     liquid: oil
+     amount: 0.05
+}
+}
+
+outputItem: pyratite/4
+craftTime: 80
+  
+requirements: [
+  copper/200
+  lead/150
+  metaglass/60
+  thorium/40
+]
+  
+ambientSound: smelter
+ambientSoundVolume: 0.07
+craftEffect: {
+  type: formsmoke
+    }
