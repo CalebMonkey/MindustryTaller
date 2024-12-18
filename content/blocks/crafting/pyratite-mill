@@ -33,9 +33,7 @@ requirements: [
   metaglass/60
   thorium/40
 ]
-  
-ambientSound: smelter
-ambientSoundVolume: 0.07
+
 craftEffect: {
   type: formsmoke
     }
