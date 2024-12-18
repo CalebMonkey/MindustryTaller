@@ -12,8 +12,8 @@ consumes: {
   power: 4.5
   items: {
     items: [
-      lead/4
-      sand/6
+      lead/6
+      sand/8
       graphite/1
     ]
   }
