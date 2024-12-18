@@ -39,12 +39,12 @@ drawer:[
     {
     }
     {
-     type: DrawFlame
-     flameColor: ffc099
-    }
-    {
      type: DrawRegion
      suffix: -top
+    }
+    {
+     type: DrawFlame
+     flameColor: ffc099
     }
 ]
 
