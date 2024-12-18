@@ -39,16 +39,18 @@ drawer:{
   type: DrawMulti
   drawers: [
     {
+    }
+    {
      type: DrawRegion
      suffix: -top
     }
     {
      type: DrawFlame
-     flameRadius: 8
-     flameRadiusIn: 6
-     flameRadiusMag: 5
-     flameRadiusInMag: 4
-     flameRadiusScl: 12
+     flameRadius: 4
+     flameRadiusIn: 3
+     flameRadiusMag: 3
+     flameRadiusInMag: 2
+     flameRadiusScl: 6
      flameColor: ffc099
     }
   ]
