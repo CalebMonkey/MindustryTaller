@@ -35,27 +35,16 @@ craftEffect: {
   type: smeltsmoke
     }
 
-drawer:[
-    {
-    }
-    {
-     type: DrawRegion
-     suffix: -top
-    }
-    {
-     type: DrawFlame
-     flameColor: ffc099
-    }
-]
 
 drawer: {
   type: DrawMulti
   drawers: [
-          {
-          type: DrawDefault
-          }
-          {
-          type: DrawFlame
-          flameColor: ffc099
-          }
-]
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawFlame
+    flameColor: ffc099
+    }
+  ]
+}
