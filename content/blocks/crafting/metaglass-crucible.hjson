@@ -40,10 +40,16 @@ drawer:{
   drawers: [
     {
      type: DrawRegion
-     suffix: -bottom
+     suffix: -top
     }
     {
-     type: DrawRegion
+     type: DrawFlame
+     flameRadius: 8
+     flameRadiusIn: 6
+     flameRadiusMag: 5
+     flameRadiusInMag: 4
+     flameRadiusScl: 12
+     flameColor: ffc099
     }
   ]
 }
