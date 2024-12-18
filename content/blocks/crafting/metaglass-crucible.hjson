@@ -48,3 +48,14 @@ drawer:[
     }
 ]
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+          {
+          type: DrawDefault
+          }
+          {
+          type: DrawFlame
+          flameColor: ffc099
+          }
+]
