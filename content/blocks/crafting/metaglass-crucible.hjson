@@ -1,5 +1,5 @@
 name: Metaglass Crucible
-description: a larger, better metaglass crafter that uses graphite as a catalyst
+description: A larger, better metaglass crafter that uses graphite as a catalyst
 type: GenericCrafter
 size: 3
 hasPower: true
