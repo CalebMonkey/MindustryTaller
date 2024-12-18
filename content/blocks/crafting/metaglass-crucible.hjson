@@ -37,7 +37,6 @@ craftEffect: {
 
 drawer:[
     {
-     type: DrawDefault
     }
     {
      type: DrawFlame
