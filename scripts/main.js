@@ -1,7 +1,7 @@
 const ceramic = Item("ceramic-composite")
 
 // Vanilla Serpulo Turrets Compatibility
-const compoundBulletSpectre = extend(FlakBulletType, {
+const ceramicBulletSpectre = extend(FlakBulletType, {
     speed: 4,
     lifetime: 55,
     damage: 100,
