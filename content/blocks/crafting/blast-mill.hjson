@@ -1,0 +1,38 @@
+name: Blast Mill
+description: A larger, better blast compound crafter that uses oil as a solvent
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: true
+category: crafting
+
+
+itemCapacity: 20
+liquidCapacity:20
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      pyratite/4
+      spore-pod/3
+    ]
+  }
+liquid:{
+     liquid: oil
+     amount: 0.15
+}
+}
+
+outputItem: blast-compound/6
+craftTime: 80
+  
+requirements: [
+  lead/150
+  titanium/100
+  ceramic-composite/60
+  phase-fabric/40
+]
+
+craftEffect: {
+  type: formsmoke
+    }
