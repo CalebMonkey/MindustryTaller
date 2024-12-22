@@ -28,6 +28,8 @@ requirements: [
   lead/540
   surge-alloy/200
 ]
+
+buildVisibility: 3
   
 ambientSound: techloop
 ambientSoundVolume: 0.15
