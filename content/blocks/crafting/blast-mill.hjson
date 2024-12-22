@@ -33,6 +33,8 @@ requirements: [
   phase-fabric/40
 ]
 
+buildVisibility: 7
+
 craftEffect: {
   type: formsmoke
     }
