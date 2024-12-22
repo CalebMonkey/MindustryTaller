@@ -34,8 +34,6 @@ requirements: [
   thorium/40
 ]
 
-buildVisibility: 6
-
 craftEffect: {
   type: formsmoke
     }
