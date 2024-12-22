@@ -46,7 +46,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: -weave
-      rotateSpeed: 12
+      rotateSpeed: 40
       spinSprite: true
     }
     {
