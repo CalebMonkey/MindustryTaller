@@ -37,5 +37,18 @@ craftEffect: {
 
 
 drawer: {
-  type: DrawWeave
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+      type: DrawWeave
+    }
+    {
+    type: DrawDefault
+    }
+
+  ]
 }
