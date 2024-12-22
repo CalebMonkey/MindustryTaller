@@ -1,0 +1,56 @@
+name: Phase Loom
+description: A larger, better phase fabric crafter that uses silicon as a catalyst
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: false
+category: crafting
+
+
+itemCapacity: 40
+consumes: {
+  power: 20
+  items: {
+    items: [
+      sand/18
+      thorium/6
+      silicon/2
+    ]
+  }
+}
+
+outputItem: phase-fabric/3
+craftTime: 40
+  
+requirements: [
+  thorium/180
+  silicon/400
+  lead/540
+  surge-alloy/200
+]
+  
+ambientSound: techloop
+ambientSoundVolume: 0.15
+craftEffect: {
+  type: smeltsmoke
+    }
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -weave
+      rotateSpeed: 12
+      spinSprite: true
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
