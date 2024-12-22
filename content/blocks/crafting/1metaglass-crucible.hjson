@@ -28,8 +28,6 @@ requirements: [
   metaglass/80
   plastanium/40
 ]
-  
-buildVisibility: 1
 
 ambientSound: smelter
 ambientSoundVolume: 0.07
