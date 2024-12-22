@@ -37,20 +37,5 @@ craftEffect: {
 
 
 drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-    type: DrawRegion
-    suffix: -bottom
-    }
-    {
-      type: DrawRegion
-      suffix: -weave
-      rotateSpeed: 2
-      spinSprite: true
-    }
-    {
-    type: DrawDefault
-    }
-  ]
+  type: DrawWeave
 }
