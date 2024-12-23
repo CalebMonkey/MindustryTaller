@@ -29,7 +29,7 @@ craftTime: 80
 requirements: [
   lead/150
   titanium/100
-  ceramic-composite/60
+  1ceramic-composite/60
   phase-fabric/40
 ]
 
