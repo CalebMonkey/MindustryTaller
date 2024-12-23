@@ -1,0 +1,8 @@
+name: Moderator
+description: A liquid highly effective at conducting heat
+color: 00984e
+gasColor: 00984e
+temperature: 0.5
+heatCapacity: 2
+viscosity: 0.6
+
