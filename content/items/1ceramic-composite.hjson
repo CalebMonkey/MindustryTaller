@@ -1,4 +1,5 @@
 name: Ceramic Composite
+description: A layered composite with many uses.
 color: ac8675
 cost : 1
 flammability : 0.1
