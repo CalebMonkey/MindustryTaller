@@ -1,0 +1,5 @@
+name: RPDX
+description: RPDX is a highly advanced explosive used in munitions and power generation. Heat resistant but highly sensitive to touch.
+color: ffd59e
+buildable: false
+explosiveness: 4
