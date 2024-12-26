@@ -1,0 +1,54 @@
+name: Plastanium Coagulator
+description: A larger, better plastanium crafter that requires water
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: true
+category: crafting
+
+
+itemCapacity: 20
+consumes: {
+  power: 8
+  items: {
+    items: [
+      titanium/8
+    ]
+  }
+  liquid:{
+     liquid: oil
+     amount: 0.6
+     liquid: water
+     amount: 0.2
+}
+}
+
+outputItem: plastanium/5
+craftTime: 90
+  
+requirements: [
+  silicon/320
+  phase-fabric/200
+  1ceramic-composite/80
+  1quartz/40
+]
+
+craftEffect: {
+  type: formsmoke
+    }
+updateEffect: {
+  type: plasticburn
+  }
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawFade
+    }
+  ]
+}
