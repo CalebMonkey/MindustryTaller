@@ -1,0 +1,51 @@
+name: Surge Integrator
+description: With fractal matter comes the ability to mix alloys at the atomic level. Here, Surge Alloy can be produced in an incredibly efficient process with no material waste.
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: false
+category: crafting
+
+
+itemCapacity: 40
+consumes: {
+  power: 6
+  items: {
+    items: [
+        lead/1
+        copper/1
+        titanium/1
+        silicon/1
+    ]
+  }
+}
+
+outputItem: surge-alloy/1
+craftTime: 60
+  
+requirements: [
+  phase-fabric/200
+  thorium/400
+  2magnetite/250
+  3fractal-matter/100
+]
+  
+ambientSound: smelter
+ambientSoundVolume: 0.15
+craftEffect: {
+  type: smeltsmoke
+    }
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawFlame
+    flameColor: 00deff
+    }
+  ]
+}
