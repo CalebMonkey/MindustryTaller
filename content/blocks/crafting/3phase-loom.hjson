@@ -23,10 +23,10 @@ outputItem: phase-fabric/3
 craftTime: 40
   
 requirements: [
-  thorium/180
+  surge-alloy/180
   silicon/400
-  lead/540
-  surge-alloy/200
+  2stygium/540
+  2magnetite/200
 ]
   
 ambientSound: techloop
