@@ -15,7 +15,7 @@ consumes: {
       titanium/8
     ]
   }
-  liquid:{
+  liquids:{
      liquid: oil
      amount: 0.6
      liquid: water
