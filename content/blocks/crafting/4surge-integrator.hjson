@@ -7,7 +7,7 @@ hasLiquids: false
 category: crafting
 
 
-itemCapacity: 40
+itemCapacity: 10
 consumes: {
   power: 6
   items: {
