@@ -1,7 +1,7 @@
 name: Surge Integrator
 description: With fractal matter comes the ability to mix alloys at the atomic level. Here, Surge Alloy can be produced in an incredibly efficient process with no material waste.
 type: GenericCrafter
-size: 3
+size: 2
 hasPower: true
 hasLiquids: false
 category: crafting
