@@ -25,8 +25,8 @@ craftTime: 80
 requirements: [
   graphite/120
   silicon/100
-  metaglass/80
-  plastanium/40
+  plastanium/80
+  surge-alloy/40
 ]
 
 ambientSound: smelter
