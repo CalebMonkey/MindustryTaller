@@ -1,0 +1,11 @@
+name: Ceramic Duct
+type: Duct
+category: distribution
+speed: 3
+health: 150
+
+requirements: [
+  1ceramic-composite/1
+  copper/1
+  metaglass/1
+]
