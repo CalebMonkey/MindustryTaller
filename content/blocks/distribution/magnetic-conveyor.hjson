@@ -1,7 +1,8 @@
+name: Magnetic Conveyor
 type: StackConveyor
 category: distribution
 itemCapacity: 20
-speed: 0.08
+speed: 0.09
 
 requirements: [
   2magnetite/1
