@@ -1,0 +1,12 @@
+name: Ceramic Bridge
+type: DuctBridge
+category: distribution
+speed: 3
+health: 300
+
+requirements: [
+  1ceramic-composite/10
+  copper/20
+  metaglass/15
+  
+]
