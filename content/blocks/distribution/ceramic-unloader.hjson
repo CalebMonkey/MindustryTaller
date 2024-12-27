@@ -1,0 +1,10 @@
+name: Ceramic Unloader
+type: Unloader
+category: distribution
+speed: 3.2
+health: 250
+
+requirements: [
+  silicon/20
+  1ceramic-composite/10
+]
