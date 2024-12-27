@@ -1,7 +1,6 @@
 name: Directional Unloader
 type: DirectionalUnloader
 category: distribution
-itemCapacity: 20
 speed: 3
 health: 250
 regionRotated1: 1
