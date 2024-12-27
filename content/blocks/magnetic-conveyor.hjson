@@ -1,0 +1,10 @@
+type: StackConveyor
+category: distribution
+itemCapacity: 20
+speed: 0.08
+
+requirements: [
+  2magnetite/1
+  1quartz/1
+  1ceramic-composite/1
+]
