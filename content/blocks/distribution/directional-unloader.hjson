@@ -1,0 +1,13 @@
+name: Directional Unloader
+type: DirectionalUnloader
+category: distribution
+itemCapacity: 20
+speed: 3
+health: 250
+regionRotated1: 1
+
+requirements: [
+  silicon/25
+  1quartz/15
+  1ceramic-composite/20
+]
