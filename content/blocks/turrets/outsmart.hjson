@@ -15,7 +15,7 @@ targetInterval: 1.2
 shootX: -1
 recoil: 2
 recoilTime: 40
-coolantMultiplier: 0.5
+coolantMultiplier: 1
 coolant: {
   type: ConsumeCoolant
   amount: 0.3
