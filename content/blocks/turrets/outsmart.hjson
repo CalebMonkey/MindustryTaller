@@ -10,15 +10,15 @@ health: 2000
 inaccuracy: 20
 shootSound: shootBig
 outlineIcon: true
-maxAmmo: 250
+maxAmmo: 300
 targetInterval: 1.2
 shootX: -1
-recoil: 2
+recoil: 1
 recoilTime: 40
-coolantMultiplier: 1
+coolantMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
-  amount: 0.3
+  amount: 1
 }
 ammoTypes: {
   copper: {
@@ -42,5 +42,4 @@ requirements: [
   plastanium/200
   phase-fabric/150
 ]
-research: rifle
 category: turret
