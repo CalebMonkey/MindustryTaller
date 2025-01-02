@@ -48,7 +48,7 @@ ammoTypes: {
   copper: {
     type: BasicBulletType 
     damage: 15 
-    ammoMultiplier: 1
+    ammoMultiplier: 0.5
     reloadMultiplier: 1
     shootEffect: shootSmall 
     speed: 6
@@ -58,12 +58,28 @@ ammoTypes: {
     height: 9
     buildingDamageMultiplier: 0.1
   }
+  magnetite: {
+    type: RailBulletType 
+    shots: 1
+    damage: 720
+    ammoMultiplier: 1
+    reloadMultiplier: 0.05
+    shootEffect: instShoot
+    pierceEffect: railHit;
+    smokeEffect: smokeCloud;
+    pointEffect: instTrail;
+    despawnEffect: instBomb;
+    pointEffectSpace: 20
+    buildingDamageMultiplier: 0.1
+    length: 360
+  }
 }
 requirements: [
-  titanium/900
-  thorium/450
-  silicon/300
-  plastanium/200
-  phase-fabric/150
+  silicon/2000
+  phase-fabric/1000
+  2stygium/1200
+  1ceramic-composite/900
+  2magnetite/300
+  
 ]
 category: turret
