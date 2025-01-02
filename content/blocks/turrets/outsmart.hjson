@@ -30,7 +30,7 @@ coolant: {
 }
 
  shoot: ShootBarrel{{
-                barrels: float[]{
+                barrels: float{
                     -6, -1.25, 0,
                     -2, 0, 0
                     2, 0, 0,
