@@ -39,7 +39,7 @@ shoot: {
     -4, 0, 0
   ]
   shots: 4
-  shotDelay: 10
+  shotDelay: 1
 }
 
 
@@ -68,6 +68,9 @@ ammoTypes: {
     speed: 6
     lifetime: 60
     ammoUseEffect: casing1
+    hitEffect: blastExplosion  
+    despawnEffect: blastExplosion
+    sprite: missile-large
 
     damage: 25
     splashDamage: 50
@@ -87,7 +90,6 @@ ammoTypes: {
     buildingDamageMultiplier: 0.1
     length: 360
     pointEffect: instTrail
-    shootEffect: instShoot
   }
 }
 requirements: [
