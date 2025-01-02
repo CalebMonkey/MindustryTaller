@@ -19,11 +19,11 @@ shootX: -1
 recoil: 1
 recoilTime: 40
 
-minWarmup: 0.9
+minWarmup: 0.8
 shootWarmupSpeed: 0.02
 
 ambientSound: cutter
-
+ambientSoundVolume: 0.8
 
 coolantMultiplier: 0.5
 coolant: {
