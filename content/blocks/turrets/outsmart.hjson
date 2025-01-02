@@ -62,8 +62,6 @@ ammoTypes: {
     width: 7
     height: 8
     shrinkY: 0
-    frontColor: lightishOrange
-    backColor: lightOrange
     shootEffect: shootSmall 
     speed: 6
     lifetime: 60
