@@ -34,24 +34,24 @@ shoot: {
   type: ShootBarrel
   barrels: [
     {
-    offset: 5
-    angleOffset: 5
-    length: 5
+    x: 6
+    y: 0
+    rotation: 0
     }
      {
-    offset: 5
-    angleOffset: -5
-    length: 5
+    x: 2
+    y: 2
+    rotation: 0
     }
      {
-    offset: 5
-    angleOffset: 10
-    length: 5
+    x: -2
+    y: 2
+    rotation: 0
     }
      {
-    offset: 5
-    angleOffset: -10
-    length: 5
+    x: -6
+    y: 0
+    rotation: 0
     }
   ]
 }
