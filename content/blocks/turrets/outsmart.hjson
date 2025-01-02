@@ -15,11 +15,18 @@ targetInterval: 1.2
 shootX: -1
 recoil: 1
 recoilTime: 40
+
+minWarmup: 1.00
+shootWarmupSpeed: 0.02
+
+
 coolantMultiplier: 0.5
 coolant: {
   type: ConsumeCoolant
   amount: 1
 }
+
+
 ammoTypes: {
   copper: {
     type: BasicBulletType 
