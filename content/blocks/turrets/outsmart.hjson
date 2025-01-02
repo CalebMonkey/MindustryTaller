@@ -64,12 +64,6 @@ ammoTypes: {
     damage: 720
     ammoMultiplier: 1
     reloadMultiplier: 0.05
-    shootEffect: instShoot
-    pierceEffect: railHit;
-    smokeEffect: smokeCloud;
-    pointEffect: instTrail;
-    despawnEffect: instBomb;
-    pointEffectSpace: 20
     buildingDamageMultiplier: 0.1
     length: 360
   }
