@@ -33,26 +33,10 @@ coolant: {
 shoot: {
   type: ShootBarrel
   barrels: [
-    {
-    x: 6
-    y: 0
-    rotation: 0
-    }
-     {
-    x: 2
-    y: 2
-    rotation: 0
-    }
-     {
-    x: -2
-    y: 2
-    rotation: 0
-    }
-     {
-    x: -6
-    y: 0
-    rotation: 0
-    }
+    6, 0, 0,
+    2, 2, 0,
+    -2, 2, 0,
+    -6, 0, 0
   ]
 }
 
