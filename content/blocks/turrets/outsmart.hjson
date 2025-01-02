@@ -2,12 +2,12 @@ type: ItemTurret
 name: Outsmart 
 description: We've yet to meet one that can outsmart a bullet.
 reload: 1
-shootCone: 20
+shootCone: 15
 rotateSpeed: 1
 size: 4
 range: 360
 health: 2000
-inaccuracy: 20
+inaccuracy: 10
 
 shootSound: shootBig
 outlineIcon: true
