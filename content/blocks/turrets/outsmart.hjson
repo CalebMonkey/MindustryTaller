@@ -1,4 +1,4 @@
-type: BurstTurret 
+type: ItemTurret 
 name: Outsmart 
 description: We've yet to meet one that can outsmart a bullet.
 reload: 1
