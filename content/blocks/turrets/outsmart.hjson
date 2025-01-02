@@ -32,11 +32,32 @@ coolant: {
 }
 
 shoot: {
-  type: ShootSpread
-  spread: 2
-  shots: 4
-  delay: 0
+  type: ShootBarrel
+  barrels: [
+    {
+    offset: 5
+    angleOffset: 5
+    length: 5
+    }
+     {
+    offset: 5
+    angleOffset: -5
+    length: 5
+    }
+     {
+    offset: 5
+    angleOffset: 10
+    length: 5
+    }
+     {
+    offset: 5
+    angleOffset: -10
+    length: 5
+    }
+  ]
 }
+
+
 ammoTypes: {
   copper: {
     type: BasicBulletType 
