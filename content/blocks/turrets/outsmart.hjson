@@ -70,7 +70,7 @@ ammoTypes: {
     ammoUseEffect: casing1
     hitEffect: blastExplosion  
     despawnEffect: blastExplosion
-    sprite: mine-bullet
+    bulletSprite: missile-large
 
     damage: 25
     splashDamage: 50
