@@ -29,17 +29,12 @@ coolant: {
   amount: 1
 }
 
- shoot: ShootBarrel{{
-                barrels: float{
-                    -6 -1.25 0
-                    -2 0 0
-                    2 0 0
-                    6 -1.25 0
-                }
-                shots: 4
-                shotDelay: 0
-            }}
-
+shoot: {
+  type: ShootSpread
+  spread: 2
+  shots: 4
+  delay: 0
+}
 ammoTypes: {
   copper: {
     type: BasicBulletType 
