@@ -18,7 +18,7 @@ shootX: -1
 recoil: 1
 recoilTime: 40
 
-minWarmup: 1.00
+minWarmup: 0.5
 shootWarmupSpeed: 0.02
 
 
