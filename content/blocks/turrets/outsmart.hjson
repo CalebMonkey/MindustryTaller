@@ -127,6 +127,8 @@ ammoTypes: {
     despawnEffect: blastExplosion
     bulletSprite: missile-large
     homingPower: 0
+    frontColor: #ffaa5f
+    backColor: #e99356
 
     damage: 25
     splashDamage: 50
@@ -136,6 +138,22 @@ ammoTypes: {
     ammoMultiplier: 2
     reloadMultiplier: 0.6
   }
+  coal: {
+    type: BasicBulletType 
+    shootEffect: shootSmall 
+    ammoUseEffect: casing1
+    frontColor: #ffaa5f
+    backColor: #e99356
+    width: 7
+    height: 9
+    speed: 6
+    lifetime: 60
+    damage: 12 
+    status: burning
+    makeFire: true
+    ammoMultiplier: 1
+    reloadMultiplier: 0.8
+    buildingDamageMultiplier: 0.1
 }
 requirements: [
   silicon/2000
