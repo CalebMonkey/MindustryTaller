@@ -126,8 +126,8 @@ ammoTypes: {
     despawnEffect: blastExplosion
     bulletSprite: missile-large
     homingPower: 0
-    frontColor: [#ffaa5f]
-    backColor: [#e99356]
+    frontColor: ffaa5f
+    backColor: e99356
 
     damage: 25
     splashDamage: 50
@@ -141,8 +141,8 @@ ammoTypes: {
     type: BasicBulletType 
     shootEffect: shootSmall 
     ammoUseEffect: casing1
-    frontColor: [#ffaa5f]
-    backColor: [#e99356]
+    frontColor: ffaa5f
+    backColor: e99356
     width: 7
     height: 9
     speed: 6
