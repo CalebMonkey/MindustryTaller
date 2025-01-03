@@ -104,9 +104,9 @@ ammoTypes: {
     hitEffect: pulverizeSmall
     width: 1
     height: 1
-    speed: 9
+    speed: 10
     lifetime: 60
-    drag: 0.1
+    drag: 0.05
     damage: 3 
     splashDamage: 12
     splashDamageRadius: 12
