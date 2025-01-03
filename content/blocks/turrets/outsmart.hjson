@@ -154,6 +154,7 @@ ammoTypes: {
     ammoMultiplier: 1
     reloadMultiplier: 0.8
     buildingDamageMultiplier: 0.1
+  }
 }
 requirements: [
   silicon/2000
