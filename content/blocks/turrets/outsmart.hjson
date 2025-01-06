@@ -98,6 +98,7 @@ ammoTypes: {
       lifetime: 15
       frontColor: ffffff
       backColor: ebeef5
+      }
   }
   graphite: {
     type: BasicBulletType 
