@@ -78,14 +78,14 @@ ammoTypes: {
     backSprite: large-bomb-back
     sprite: mine-bullet
     frontColor: ffffff
-    backColor: ebeef5
+    backColor: d0d0e0
     trailColor: ebeef5
     trailChance: 0.44
     trailEffect: disperseTrail
     rotationOffset: 90
     trailRotation: true
     velocityRnd: 0.11
-    hitSound: shotgun
+    hitSound: shootAltLong
     width: 16
     height: 16
     speed: 8
@@ -105,7 +105,7 @@ ammoTypes: {
       damage: 15
       lifetime: 15
       frontColor: ffffff
-      backColor: ebeef5
+      backColor: d0d0e0
       }
   }
   graphite: {
@@ -114,11 +114,12 @@ ammoTypes: {
     ammoUseEffect: casing1
     width: 9
     height: 12
-    speed: 4
-    lifetime: 90
-    damage: 32 
+    speed: 6
+    lifetime: 60
+    damage: 50 
     ammoMultiplier: 1
     reloadMultiplier: 0.6
+    knockback: 0.3
     inaccuracy: -4
   }
   sand: {
@@ -128,8 +129,8 @@ ammoTypes: {
     ammoUseEffect: casing1
     hitEffect: pulverizeSmall
     despawnEffect: none
-    width: 3
-    height: 3
+    width: 4
+    height: 4
     speed: 12
     lifetime: 60
     drag: 0.025
@@ -139,9 +140,61 @@ ammoTypes: {
     explodeRange: 10
     ammoMultiplier: 1
     reloadMultiplier: 2
-    inaccuracy: 5
+    inaccuracy: 10
   }
-  pyratite: {
+  coal: {
+    type: BasicBulletType 
+    shootEffect: shootSmall 
+    ammoUseEffect: casing1
+    frontColor: ffaa5f
+    backColor: e99356
+    width: 7
+    height: 9
+    speed: 6
+    lifetime: 60
+    damage: 12 
+    status: burning
+    makeFire: true
+    ammoMultiplier: 1
+    reloadMultiplier: 0.8
+  }
+titanium: {
+    type: BasicBulletType 
+    shootEffect: shootSmall 
+    ammoUseEffect: casing1
+    frontColor: a4b8fa
+    backColor: 919fe7
+    despawnEffect: freezing
+    width: 9
+    height: 12
+    speed: 6
+    lifetime: 60
+    damage: 32 
+    ammoMultiplier: 1
+    reloadMultiplier: 0.8
+    status: freezing
+  }
+scrap: {
+    type: FlakBulletType 
+    collidesGround: true
+    shootEffect: none
+    ammoUseEffect: casing1
+    hitEffect: pulverizeSmall
+    despawnEffect: smoke
+    hitSound: noammo
+    width: 7
+    height: 9
+    speed: 6
+    lifetime: 60
+    damage: 3 
+    splashDamage: 30
+    splashDamageRadius: 40
+    explodeRange: 36
+    ammoMultiplier: 1
+    reloadMultiplier: 0.8
+    inaccuracy: 15
+  }
+ pyratite: {
     type: MissileBulletType 
     width: 7
     height: 8
@@ -165,22 +218,6 @@ ammoTypes: {
     ammoMultiplier: 2
     reloadMultiplier: 0.6
     inaccuracy: -2
-  }
-  coal: {
-    type: BasicBulletType 
-    shootEffect: shootSmall 
-    ammoUseEffect: casing1
-    frontColor: ffaa5f
-    backColor: e99356
-    width: 7
-    height: 9
-    speed: 6
-    lifetime: 60
-    damage: 12 
-    status: burning
-    makeFire: true
-    ammoMultiplier: 1
-    reloadMultiplier: 0.8
   }
 }
 requirements: [
