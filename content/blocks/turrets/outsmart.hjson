@@ -14,7 +14,7 @@ shootSound: shootBig
 outlineIcon: true
 maxAmmo: 300
 
-targetInterval: 6
+targetInterval: 1
 recoil: 1
 recoilTime: 40
 
@@ -78,6 +78,9 @@ ammoTypes: {
     sprite: mine-bullet
     trailColor: ebeef5
     trailChance: 0.44
+    trailEffect: disperseTrail
+    rotationOffset: 90
+    trailRotation: true
     velocityRnd: 0.11
     width: 8
     height: 8
@@ -119,8 +122,8 @@ ammoTypes: {
     ammoUseEffect: casing1
     hitEffect: pulverizeSmall
     despawnEffect: none
-    width: 1
-    height: 1
+    width: 3
+    height: 3
     speed: 12
     lifetime: 60
     drag: 0.025
