@@ -71,9 +71,15 @@ ammoTypes: {
   }
   metaglass: {
     type: FlakBulletType 
+    collidesGround: true
     shootEffect: shootSmall 
     ammoUseEffect: casing1
-    width: 6
+    backSprite: large-bomb-back
+    sprite: mine-bullet
+    trailColor: ebeef5
+    trailChance: 0.44
+    velocityRnd: 0.11
+    width: 8
     height: 8
     speed: 8
     lifetime: 45
@@ -83,6 +89,15 @@ ammoTypes: {
     explodeRange: 20
     ammoMultiplier: 1
     reloadMultiplier: 0.8
+    fragBullets: 6
+    fragBullet: {
+      type: ShrapnelBulletType
+      length: 3
+      width: 4
+      damage: 15
+      lifetime: 15
+      frontColor: ffffff
+      backColor: ebeef5
   }
   graphite: {
     type: BasicBulletType 
@@ -98,9 +113,11 @@ ammoTypes: {
   }
   sand: {
     type: FlakBulletType 
+    collidesGround: true
     shootEffect: none
     ammoUseEffect: casing1
     hitEffect: pulverizeSmall
+    despawnEffect: none
     width: 1
     height: 1
     speed: 12
