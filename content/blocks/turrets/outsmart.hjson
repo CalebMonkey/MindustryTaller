@@ -156,7 +156,7 @@ ammoTypes: {
     status: burning
     makeFire: true
     ammoMultiplier: 1
-    reloadMultiplier: 0.8
+    reloadMultiplier: 1
   }
 titanium: {
     type: BasicBulletType 
@@ -171,7 +171,7 @@ titanium: {
     lifetime: 60
     damage: 32 
     ammoMultiplier: 1
-    reloadMultiplier: 0.8
+    reloadMultiplier: 1
     status: freezing
   }
 scrap: {
@@ -191,7 +191,7 @@ scrap: {
     splashDamageRadius: 40
     explodeRange: 36
     ammoMultiplier: 1
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.5
     inaccuracy: 15
   }
  pyratite: {
