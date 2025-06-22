@@ -95,7 +95,7 @@ ammoTypes: {
     splashDamageRadius: 24
     explodeRange: 20
     ammoMultiplier: 2
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.6
     fragBullets: 6
     inaccuracy: 3
     fragBullet: {
