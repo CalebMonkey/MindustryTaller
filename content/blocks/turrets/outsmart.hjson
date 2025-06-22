@@ -104,8 +104,8 @@ ammoTypes: {
       width: 4
       damage: 15
       lifetime: 15
-      frontColor: ffffff
-      backColor: d0d0e0
+      frontColor: Pal.glassAmmoFront
+      backColor: Pal.glassAmmoBack
       }
   }
   graphite: {
@@ -121,6 +121,7 @@ ammoTypes: {
     reloadMultiplier: 0.6
     knockback: 1
     inaccuracy: -4
+    frontColor: Pal.graphiteAmmoFront
   }
   sand: {
     type: FlakBulletType 
