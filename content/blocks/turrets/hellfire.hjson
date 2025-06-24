@@ -39,4 +39,12 @@ consumes: {
 ]
 }
 
+requirements: [
+  silicon/2000
+  phase-fabric/1000
+  2stygium/1200
+  1ceramic-composite/900
+  2magnetite/300
+]
+
 category: turret
