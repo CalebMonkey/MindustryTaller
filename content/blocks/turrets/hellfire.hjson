@@ -1,1 +1,19 @@
+type: ItemTurret 
+name: Hellfire
+description: Come out and play, let it rain down hellfire
+reload: 6
+shootCone: 4
+rotateSpeed: 2
+size: 4
+range: 150
+health: 1200
+inaccuracy: 2
+
+shootSound: flame
+outlineIcon: true
+maxAmmo: 300
+ammoPerShot: 6
+
+targetInterval: 6
+recoil: 0
 
