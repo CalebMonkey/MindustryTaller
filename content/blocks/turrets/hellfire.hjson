@@ -32,6 +32,7 @@ ammoTypes: {
     status: burning
     statusDuration: 600
   }
+}
 consumes: {
   liquids: [
      oil/1.2
