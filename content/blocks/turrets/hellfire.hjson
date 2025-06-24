@@ -38,3 +38,5 @@ consumes: {
      oil/1.2
 ]
 }
+
+category: turret
