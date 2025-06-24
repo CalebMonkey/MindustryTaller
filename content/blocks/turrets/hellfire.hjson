@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Hellfire
 description: Come out and play, let it rain down hellfire
-reload: 6
+reload: 3
 shootCone: 4
 rotateSpeed: 2
 size: 4
@@ -12,8 +12,28 @@ inaccuracy: 2
 shootSound: flame
 outlineIcon: true
 maxAmmo: 300
-ammoPerShot: 6
+ammoPerShot: 1
 
 targetInterval: 6
 recoil: 0
 
+ammoTypes: {
+  pyratite: {
+    shootEffect: shootPyraFlame
+    hitEffect: hitFlameSmall
+    collidesAir: false
+    speed: 18
+    hitSize: 7
+    lifetime: 60
+    damage: 60
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    pierce: true
+    status: burning
+    statusDuration: 600
+  }
+consumes: {
+  liquids: [
+     oil/1.2
+]
+}
