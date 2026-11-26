@@ -21,14 +21,16 @@ ammoTypes: {
   pyratite: {
     shootEffect: shootPyraFlame
     hitEffect: hitFlameSmall
+    despawnEffect: none
     collidesAir: false
-    speed: 18
+    speed: 4
     hitSize: 7
-    lifetime: 60
+    lifetime: 30
     damage: 60
     ammoMultiplier: 1
     reloadMultiplier: 1
     pierce: true
+    hittable: false
     status: burning
     statusDuration: 600
   }
