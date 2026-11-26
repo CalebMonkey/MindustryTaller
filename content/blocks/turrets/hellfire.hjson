@@ -19,7 +19,7 @@ recoil: 0
 
 ammoTypes: {
   pyratite: {
-    shootEffect: shootPyraFlame
+    shootEffect: hellfireSideFlames
     hitEffect: hitFlameSmall
     despawnEffect: none
     trailEffect: incendTrail
