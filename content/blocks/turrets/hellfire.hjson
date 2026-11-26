@@ -26,7 +26,7 @@ ammoTypes: {
     trailChance: 1
     trailParam: 4
     trailSpread: 3
-    trailColor: ff9b42
+    trailColor: ffb45e
     collidesAir: false
     speed: 4
     hitSize: 7
@@ -47,10 +47,10 @@ drawer: {
   parts: [
     {
       type: EffectSpawnerPart
-      effect: shootPyraFlame
+      effect: shootSmallFlame
 
       x: 8
-      y: 0
+      y: 2
       width: 0
       height: 0
       mirror: true
@@ -58,8 +58,8 @@ drawer: {
       effectRot: 90
       effectRandRot: 10
 
-      effectInterval: 3
-      effectChance: 1
+      effectInterval: 6
+      effectChance: 0.5
 
       useProgress: true
       progress: reload
