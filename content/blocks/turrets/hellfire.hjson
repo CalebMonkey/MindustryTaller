@@ -22,6 +22,11 @@ ammoTypes: {
     shootEffect: shootPyraFlame
     hitEffect: hitFlameSmall
     despawnEffect: none
+    trailEffect: incendTrail
+    trailChance: 1
+    trailParam: 4
+    trailSpread: 3
+    trailColor: ff9b42
     collidesAir: false
     speed: 4
     hitSize: 7
