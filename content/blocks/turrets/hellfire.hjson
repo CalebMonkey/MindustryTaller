@@ -19,7 +19,7 @@ recoil: 0
 
 ammoTypes: {
   pyratite: {
-    shootEffect: hellfireSideFlames
+    shootEffect: shootPyraFlame
     hitEffect: hitFlameSmall
     despawnEffect: none
     trailEffect: incendTrail
@@ -41,6 +41,25 @@ ammoTypes: {
     shootSound: shootFlame
   }
 }
+
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: EffectSpawnerPart
+      effect: shootSmallFlame
+      x: 18
+      y: 0
+      mirror: true
+      effectInterval: 3
+      effectChance: 1
+      effectRandRot: 15
+      useProgress: true
+      progress: warmup
+    }
+  ]
+}
+
 consumes: {
   liquids: [
      oil/1.2
