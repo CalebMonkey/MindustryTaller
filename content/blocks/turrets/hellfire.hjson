@@ -47,15 +47,22 @@ drawer: {
   parts: [
     {
       type: EffectSpawnerPart
-      effect: shootSmallFlame
-      x: 18
+      effect: shootPyraFlame
+
+      x: 8
       y: 0
+      width: 0
+      height: 0
       mirror: true
+
+      effectRot: 90
+      effectRandRot: 10
+
       effectInterval: 3
       effectChance: 1
-      effectRandRot: 15
+
       useProgress: true
-      progress: warmup
+      progress: reload
     }
   ]
 }
