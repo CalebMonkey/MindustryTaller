@@ -39,33 +39,34 @@ ammoTypes: {
     status: burning
     statusDuration: 600
     shootSound: shootFlame
+    drawer: {
+      type: DrawTurret
+      parts: [
+        {
+          type: EffectSpawnerPart
+          effect: shootSmallFlame
+
+          x: 8
+          y: 2
+          width: 0
+          height: 0
+          mirror: true
+
+          effectRot: 90
+          effectRandRot: 10
+
+          effectInterval: 6
+          effectChance: 0.5
+
+          useProgress: true
+          progress: reload
+        }
+      ]
+    }
   }
 }
 
-drawer: {
-  type: DrawTurret
-  parts: [
-    {
-      type: EffectSpawnerPart
-      effect: shootSmallFlame
 
-      x: 8
-      y: 2
-      width: 0
-      height: 0
-      mirror: true
-
-      effectRot: 90
-      effectRandRot: 10
-
-      effectInterval: 6
-      effectChance: 0.5
-
-      useProgress: true
-      progress: reload
-    }
-  ]
-}
 
 consumes: {
   liquids: [
