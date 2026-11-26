@@ -47,11 +47,3 @@ const hellfireSideFlames = new Effect(12, e => {
     Draw.reset();
 });
 
-// Replace the Hellfire turret's firing effect.
-Events.on(ContentInitEvent, () => {
-    let hellfire = Vars.content.getByName(ContentType.block, "hellfire");
-
-    if(hellfire != null){
-        hellfire.shootEffect = hellfireSideFlames;
-    }
-});
