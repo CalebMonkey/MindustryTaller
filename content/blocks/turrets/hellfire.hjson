@@ -17,6 +17,11 @@ ammoPerShot: 1
 targetInterval: 6
 recoil: 0
 
+drawer: {
+  type: DrawTurret
+  liquidDraw: slag
+}
+
 ammoTypes: {
   pyratite: {
     shootEffect: shootPyraFlame
