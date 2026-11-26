@@ -38,6 +38,7 @@ ammoTypes: {
     hittable: false
     status: burning
     statusDuration: 600
+    shootSound: shootFlame
   }
 }
 consumes: {
